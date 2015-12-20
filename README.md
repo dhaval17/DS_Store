@@ -5,4 +5,5 @@ Usage `python dsstore.py -t .DS_Store`
 
 **Requirements**
 * ds_store
+
 install : `pip install ds_store`
