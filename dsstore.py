@@ -8,7 +8,6 @@ parser.add_argument("-t", "--target", help="Path to the DS_Store file", required
 args = parser.parse_args()
 
 dsstore = DSStore.open(args.target, 'r+')
-print("Files and folders :")
 for data in dsstore:
 	data = str(data)
 	entry = data.translate(None, "<>")
