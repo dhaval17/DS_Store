@@ -4,7 +4,7 @@ import argparse
 parser = argparse.ArgumentParser()
 
 parser.add_argument("-p", "--path", help="Path to the DS_Store file", required=True)
-parser.add_argument("-t", "--type", help="Type : Iloc, bwsp, lsvp, lsvP, icvp", default=100)
+parser.add_argument("-t", "--type", help="Type : Iloc, bwsp, lsvp, lsvP, icvp", default='Iloc')
 args = parser.parse_args()
 
 dsstore = DSStore.open(args.path, 'r+')
