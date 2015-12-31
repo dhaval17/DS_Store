@@ -1,4 +1,5 @@
 from ds_store import DSStore
+from tqdm import tqdm
 import argparse
 
 parser = argparse.ArgumentParser()
@@ -8,7 +9,7 @@ parser.add_argument("-t", "--type", help="Type : Iloc, bwsp, lsvp, lsvP, icvp", 
 args = parser.parse_args()
 
 dsstore = DSStore.open(args.path, 'r+')
-for data in dsstore:
+for data in tqdm(dsstore):
 	data = str(data)
 	entry = data.translate(None, "<>")
 	entry = entry.split(' ')

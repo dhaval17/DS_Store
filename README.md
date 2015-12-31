@@ -11,7 +11,11 @@ install : `pip install ds_store`
 * Types supported 
 	
 	`Iloc
+
 	bwsp
+
 	lsvp
-	lsvP 
+
+	lsvP
+ 
 	icvp`
