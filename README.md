@@ -1,8 +1,11 @@
 # DS_Store
 
+![DS_Store](https://raw.githubusercontent.com/dhaval17/DS_Store/assets/logo.png)
+
 ## Python script to view contents of .DS_Store file
 
-`Usage python dsstore.py -p /.DS_Store -t Iloc`
+### Usage 
+`python dsstore.py -p /.DS_Store -t Iloc`
 
 ## Requirements
 
