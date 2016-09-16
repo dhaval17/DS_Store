@@ -1,22 +1,18 @@
 # DS_Store
-Python script to view contents of .DS_Store file
 
-Usage `python dsstore.py -p /dir/.DS_Store -t Iloc`
+## Python script to view contents of .DS_Store file
 
-**Requirements**
-* ds_store
+`Usage python dsstore.py -p /.DS_Store -t Iloc`
 
-install : `pip install ds_store`
+## Requirements
 
-* Types supported 
-	'''
-	Iloc
+### ds_store :
+`pip install ds_store`
 
-	bwsp
+Types supported 
 
-	lsvp
-
-	lsvP
- 
-	icvp
-	'''
+- Iloc
+- bwsp
+- lsvp
+- lsvP
+- icvp
