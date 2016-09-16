@@ -9,8 +9,8 @@ Usage `python dsstore.py -p /dir/.DS_Store -t Iloc`
 install : `pip install ds_store`
 
 * Types supported 
-	
-	`Iloc
+	'''
+	Iloc
 
 	bwsp
 
@@ -18,4 +18,5 @@ install : `pip install ds_store`
 
 	lsvP
  
-	icvp`
+	icvp
+	'''
