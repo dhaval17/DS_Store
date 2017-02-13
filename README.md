@@ -5,6 +5,7 @@
 ## Python script to view contents of .DS_Store file
 
 ### Usage 
+`pip install -r requirements.txt`
 `python dsstore.py -p /.DS_Store -t Iloc`
 
 ## Requirements
