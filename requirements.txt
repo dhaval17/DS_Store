@@ -1,2 +1,2 @@
-ds_store
-tqdm
+ds_store>=1.3.0
+tqdm>=4.65.0
